@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script> 
+    document.getElementById("contact form").addEventListener("submit").function(event) {
+        const name = document.getElementById("name").value;
+        const Email= document.getElementById('email').value;
+        const message = document.getElementById("message").value;
+        if( !name|| !email || !message) {
+            event.preventDefault();
+            alert("please fill all the fields.");
+        }
+
+    }
+   </script> 
+</body>
+</html>

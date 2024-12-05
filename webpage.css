@@ -1,0 +1,19 @@
+.war{
+    background-color: orange;
+    display: flex;
+}
+.me{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.ur{
+    background-color: black;
+    color: white;
+}
+.milly{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
